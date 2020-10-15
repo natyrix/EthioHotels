@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="974bee15-ab80-4373-9458-11227b012947" name="Default Changelist" comment="Initial">
+    <list default="true" id="974bee15-ab80-4373-9458-11227b012947" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hotel/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/public/static/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/assets/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/accounts/login1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/accounts/register1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/Account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/AccountLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/CompleteRegistration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/ErrorMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/Gallery/Gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/Gallery/GalleryItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/LoadHotelHomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/RatesandReviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/AddReceptionist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/AdminHomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/CheckIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/CheckIns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/Receptionist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/Receptionists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/Reservation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelAdmin/Reservations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithAPI/HotelHomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithAPI/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/ChangeRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/CheckIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/CheckIns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/HotelHomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/Reservation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/Reservations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/hotelwithNoAPI/Rooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/loadHotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/ratings/Rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/ratings/RatingSummary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/ratings/Ratings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/reviews/Review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/reviews/Reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/rooms/AddRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/rooms/AddRoomType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/rooms/Room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/rooms/RoomType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/rooms/RoomTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/components/hotels/rooms/Rooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/models/HelperModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/models/ReceptionistModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/models/completeRegisterModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/models/hotelModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/models/loginModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/models/registerModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/redux/loadHotels/laodHotelActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/redux/loadHotels/loadHotelReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/redux/loadHotels/loadHotelTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front_end/src/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EthioHotels.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EthioHotels.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/End_User/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/End_User/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/End_User/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/End_User/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EthioHotels/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/EthioHotels/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EthioHotels/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/EthioHotels/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rooms/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rooms/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rooms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Rooms/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,77 +80,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Hotel/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Hotel/models.py" />
-        <option value="$PROJECT_DIR$/End_User/models.py" />
-        <option value="$PROJECT_DIR$/EthioHotels/settings.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Hotel/admin.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="y" value="27" />
-    <option name="width" value="960" />
-    <option name="height" value="1029" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EthioHotels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EthioHotels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EthioHotels" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EthioHotels" type="462c0819:PsiDirectoryNode" />
-              <item name="Hotel" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1d7RP6smVBO2K7mJphcoOjIPIfG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/env/bin/python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -107,6 +122,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582363647737</updated>
+      <workItem from="1591774147527" duration="1909000" />
+      <workItem from="1592795727923" duration="5269000" />
+      <workItem from="1592975807092" duration="1044000" />
+      <workItem from="1593511488887" duration="599000" />
+      <workItem from="1593552743247" duration="47000" />
+      <workItem from="1593553094866" duration="9000" />
+      <workItem from="1593553217596" duration="10152000" />
+      <workItem from="1594170260379" duration="4686000" />
+      <workItem from="1594677445122" duration="8487000" />
+      <workItem from="1595295858301" duration="6606000" />
+      <workItem from="1595891209924" duration="8029000" />
+      <workItem from="1596092413069" duration="5740000" />
+      <workItem from="1596238584405" duration="115000" />
+      <workItem from="1596428064961" duration="8923000" />
+      <workItem from="1596712602602" duration="7854000" />
+      <workItem from="1596767969462" duration="37000" />
+      <workItem from="1597038863994" duration="599000" />
+      <workItem from="1597142427286" duration="4755000" />
+      <workItem from="1597193618740" duration="1199000" />
+      <workItem from="1597299071743" duration="209000" />
+      <workItem from="1597650583281" duration="10687000" />
+      <workItem from="1597923197599" duration="15000" />
+      <workItem from="1598322824703" duration="2513000" />
+      <workItem from="1598350756277" duration="376000" />
+      <workItem from="1598351190029" duration="4756000" />
+      <workItem from="1598497406615" duration="83000" />
+      <workItem from="1598951327730" duration="8176000" />
+      <workItem from="1599204628788" duration="8792000" />
+      <workItem from="1599345748759" duration="4450000" />
+      <workItem from="1599460891307" duration="19140000" />
+      <workItem from="1599625448371" duration="12011000" />
+      <workItem from="1600045687132" duration="13562000" />
+      <workItem from="1600210125264" duration="9352000" />
+      <workItem from="1600325985844" duration="565000" />
+      <workItem from="1600327893492" duration="5010000" />
+      <workItem from="1600412779594" duration="31000" />
+      <workItem from="1600673231143" duration="5058000" />
+      <workItem from="1600758851269" duration="5067000" />
+      <workItem from="1600932409211" duration="1196000" />
+      <workItem from="1601020044537" duration="4631000" />
+      <workItem from="1601281426567" duration="6872000" />
+      <workItem from="1601364042574" duration="4704000" />
+      <workItem from="1601448619435" duration="1335000" />
+      <workItem from="1601536381156" duration="1345000" />
+      <workItem from="1601704231025" duration="2451000" />
+      <workItem from="1602056757526" duration="596000" />
+      <workItem from="1602139174653" duration="112000" />
+      <workItem from="1602489878142" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <created>1582377806374</created>
@@ -122,87 +185,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582377883209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rest_frame work initials">
+      <created>1582381261584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582381261584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1029" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11649974" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3289183" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.20860927" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/End_User/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rooms/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hotel/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/End_User/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EthioHotels/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hotel/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <MESSAGE value="Rest_frame work initials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest_frame work initials" />
   </component>
 </project>
